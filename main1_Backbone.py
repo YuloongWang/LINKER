@@ -233,7 +233,7 @@ else:
     }
 
 if args.wandb:
-    wandb.login(key="d2fdeba96988784b072a586db7423ec7ce1266c2")
+    wandb.login(key="")
     if checkpoint['wandb_run_id'] is not None:
         wandb.init(config=args,
                    project=args.project,
